@@ -1,0 +1,23 @@
+h2{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin-left: 350px;
+}
+
+.boxes{
+
+    margin-left: 350px;
+    width: 600px;
+    border-color: black 5px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+button{
+   color:rgb(240, 234, 234);
+   font-weight: 500;
+   background-color:black; margin-left: 350px;
+   border-color: rgb(255, 255, 255) 5px;
+   margin-top: 20px;
+}

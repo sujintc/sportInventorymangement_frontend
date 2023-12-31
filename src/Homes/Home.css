@@ -1,0 +1,24 @@
+.positiontype{
+    margin-top: 30px;
+    height: 700px;
+
+}
+
+.d-block{
+
+    height: 500px;
+    width: 1500px;
+}
+
+.labelstyle{
+      margin-left: 200px;
+      font-size: 50px;
+      color: azure;
+    font-weight: 900;
+       margin-left:0px ;
+        margin-bottom: 200px;
+
+}
+.dark{
+    background-color: black;
+}
