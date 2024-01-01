@@ -9,7 +9,7 @@ const Register = () => {
 
   const handleRegister = async () => {
     try {
-      await axios.post('http://localhost:4000/api/register', { username,email, password });
+      await axios.post('https://inventorybackendfinal.onrender.com/api/register', { username,email, password });
       console.log('Registration successful!');
       // Redirect to login or handle as needed
     } catch (error) {
