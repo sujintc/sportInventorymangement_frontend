@@ -28,7 +28,7 @@
 //         // })
         
 
-//         fetch('http://localhost:4000/api/product', {
+//         fetch('https://inventorybackendfinal.onrender.com/api/product', {
 //             method: 'POST',
 //             headers: {
 //                 'content-type': 'application/json'
@@ -109,7 +109,7 @@ const AddItem = () => {
         // })
         
 
-        fetch('http://localhost:4000/api/product', {
+        fetch('https://inventorybackendfinal.onrender.com/api/product', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
