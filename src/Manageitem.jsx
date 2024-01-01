@@ -13,7 +13,7 @@ const Manageitem = () => {
     const handleRemove = id => {
         const proceed = window.confirm('Are You Sure to Delete?');
         if (proceed) {
-            fetch(`https://inventorybackendfinal.onrender.comapi/delete/product/${id}`, {
+            fetch(`https://inventorybackendfinal.onrender.com/api/delete/product/${id}`, {
                 method: 'DELETE',
             })
                 .then(res => res.json())
