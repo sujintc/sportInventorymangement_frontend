@@ -9,7 +9,7 @@ const useProducts = () => {
      },[]);
 
      const fetchdata =async(req,res)=>{
-        await axios.get('http://localhost:4000/api/get/product')
+        await axios.get('https://inventorybackendfinal.onrender.com/api/get/product')
         .then((res)=>{
             setItems(res.data.data)
             setmessage(res.data.message)
