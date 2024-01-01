@@ -8,7 +8,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post('http://localhost:4000/api/login', { username, password });
+      const response = await axios.post('https://inventorybackendfinal.onrender.com/api/login', { username, password });
       const token = response.data.token;
       // Save the token in localStorage or a state management system
       console.log('Login successful! Token:', token);
